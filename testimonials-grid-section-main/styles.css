@@ -9,7 +9,7 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: hsl(214, 17%, 92%);
-  margin-block: 50px;
+  padding-block: 50px;
 }
 
 .testimonials {
@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: minmax(150px auto);
+  grid-template-rows: minmax(100px auto);
   gap: 25px;
   margin-bottom: 20px;
 }
@@ -122,9 +122,16 @@ h3 {
 }
 
 /* screens less than 768px */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .testimonials {
     width: 90%;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .tes-box {
+    width: 100%;
   }
 }
