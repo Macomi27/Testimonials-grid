@@ -80,7 +80,7 @@ body {
   flex-direction: column;
   gap: 15px;
   border-radius: 5px;
-  box-shadow: 8px 8px 40px hsla(0, 0%, 7%, 0.363);
+  box-shadow: 30px 40px 30px hsla(0, 0%, 7%, 0.2);
 }
 
 .intro {
